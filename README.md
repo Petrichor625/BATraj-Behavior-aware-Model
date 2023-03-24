@@ -58,9 +58,8 @@ We evaluate the performance of our model using the NGSIM dataset, a widely-used 
 
 In conclusion, the behavior-aware model represents a major advancement in the development of autonomous vehicles capable of predicting trajectories with the same level of proficiency as human drivers. In the future, there are several areas of research that we plan to explore in order to further improve the performance of our model. These include incorporating additional sources of data and information, such as sensor data from on-board cameras and lidar, as well as exploring new machine learning techniques and algorithms that may improve the accuracy and efficiency of our model. We also plan to investigate how our model can be integrated into larger autonomous vehicle systems, and how it can be used to improve the safety and reliability of autonomous vehicles in real-world scenarios.
 
+### An overview of the Polar coordinates system and the proposed behavior-aware and position-aware modules ###
 ![image](https://github.com/Petrichor625/BATran-Behavior-aware-Model/blob/main/polar.png)
-An overview of the Polar coordinates system and the proposed behavior-aware and position-aware modules
 
+### Multi-modal maneuver prediction framework with corresponding probability outputs ###
 ![image](https://github.com/Petrichor625/BATran-Behavior-aware-Model/blob/main/trajectory-3.png)
-Multi-modal maneuver prediction framework with corresponding probability outputs
-
