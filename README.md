@@ -61,5 +61,7 @@ In conclusion, the behavior-aware model represents a major advancement in the de
 ### An overview of the Polar coordinates system and the proposed behavior-aware and position-aware modules.
 ![image](https://github.com/Petrichor625/BATran-Behavior-aware-Model/blob/main/polar.png)
 
+
+
 ### Multi-modal maneuver prediction framework with corresponding probability outputs.
 ![image](https://github.com/Petrichor625/BATran-Behavior-aware-Model/blob/main/trajectory-3.png)
