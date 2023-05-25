@@ -162,7 +162,7 @@ We are preparing a script for generating these visualizations:
  ````
  Code for qualitative results coming soon
  ````
-
+ ![image](https://github.com/Petrichor625/BATraj-Behavior-aware-Model/blob/main/Figures/Qualitative%20results.gif)
 
 
 
