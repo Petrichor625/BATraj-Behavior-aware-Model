@@ -58,7 +58,7 @@ Before starting the training process,   you can choose one of the datasets to tr
 
 HighD is a new dataset of naturalistic vehicle trajectories recorded on German highways. Using a drone, typical limitations of established traffic data collection methods such as occlusions are overcome by the aerial perspective. Traffic was recorded at six different locations and included more than 110 500 vehicles. It provides both the full dataset and the sample version of the dataset for testing purposes. We also train and test our models in the highD dataset.
 
-Due to the policy requirements of this dataset, please request and download the **HighD** dataset from the  HighD official [website]([HighD Dataset (highd-dataset.com)](https://www.highd-dataset.com/)). Normally, applications take 7-14 working days to be approved.
+Due to the policy requirements of this dataset, please request and download the **HighD** dataset from the  HighD official [website](https://www.highd-dataset.com/). Normally, applications take 7-14 working days to be approved.
 
 After downloading the dataset,  please put all your dataset files in the directory named `HgihD`, and then you then run the following MATLAB script to process the raw data:
 
