@@ -60,7 +60,7 @@ HighD is a new dataset of naturalistic vehicle trajectories recorded on German h
 
 Due to the policy requirements of this dataset, please request and download the **HighD** dataset from the  HighD official [website](https://www.highd-dataset.com/). Normally, applications take 7-14 working days to be approved.
 
-After downloading the dataset,  please put all your dataset files in the directory named `HgihD`, and then you then run the following MATLAB script to process the raw data:
+After downloading the dataset,  please put all your dataset files in the directory named `HgihD` (in the folder 'dataset'), and then you then run the following MATLAB script to process the raw data:
 
 ```
 HighD_preprocess.m
@@ -84,7 +84,7 @@ To further evaluate the performance of our model in some complex and non-regular
 
 Due to the policy requirements of this dataset, please request and download the **RounD** dataset from the  RounD official [website](https://www.round-dataset.com/). Normally, applications also take 7-14 working days to be approved.
 
-After downloading the dataset,  please put all your dataset files in the directory named `RounD`, and then you then run the following MATLAB script to process the raw data:
+After downloading the dataset,  please put all your dataset files in the directory named `RounD` (in the folder 'dataset'), and then you then run the following MATLAB script to process the raw data:
 
 ```
 rounD_preprocess.m
