@@ -167,7 +167,7 @@ We are preparing a script for generating these visualizations:
 
 
 
-## Main contribution
+## Main contributions
 
 This work aims to introduce a novel **lightweight and map-free model** that eliminates the need for labor-intensive high-definition (HD) maps and costly manual annotation by using only historical trajectory data in the polar coordinate system and a DGG-based method to capture continuous driving behavior. It can be summarized as follows:
 
