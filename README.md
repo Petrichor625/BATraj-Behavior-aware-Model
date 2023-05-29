@@ -42,7 +42,7 @@ Before starting the training process,   you can choose one of the datasets to tr
 
 
 
-**a. NGSIM (Next Generation Simulation) Dataset**
+**a. Next Generation Simulation (NGSIM) Dataset**
 
 <u>The esteemed NGSIM dataset is available at the Releases in this repository.</u>
 
