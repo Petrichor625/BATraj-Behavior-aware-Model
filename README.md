@@ -7,6 +7,18 @@ This repository contains the official implementation of  **BATraj: A Behavior-aw
 The ability to accurately predict the trajectories of surrounding vehicles is a crucial obstacle that must be overcome in the journey towards fully autonomous vehicles. To address this challenge, we introduce a behavior-aware model for trajectory prediction that incorporates theories and findings from the fields of human behavior, decision-making, theory of mind, etc. This model is comprised of behavior-aware, interaction-aware, priority-aware, and position-aware modules that analyze and interpret a variety of inputs, perceive and comprehend underlying interactions, and take into account uncertainty and variability in prediction. We evaluate the performance of our model using the NGSIM dataset and show that it outperforms current state-of-the-art baselines in terms of prediction accuracy and efficiency. Even when trained on a reduced portion of the training data, specifically 25\%, our model outperforms all baselines, demonstrating its robustness and efficiency in predicting future vehicle trajectories and the potential to lower the amount of data required for training autonomous vehicles, particularly in corner cases. In conclusion, the behavior-aware model represents a major advancement in the development of autonomous vehicles capable of predicting trajectories with the same level of proficiency as human drivers. 
 ![image](https://github.com/Petrichor625/BATran-Behavior-aware-Model/blob/main/framework.png)
 
+## Our model
+
+This model comprises of four innovative modules - a behavior-aware module, an interaction-aware module, a priority-aware module, and a position-aware module - each designed to enhance the sophistication and nuance of the model's understanding of driver behavior and vehicle interactions on the road.
+
+**The behavior-aware module**, in particular, is a key component of this model. Instead of resorting to a simplistic classification of behaviors into two or three distinct typologies, it utilizes a continuous representation of behavioral information, rooted in dynamic geometric graph theory, to offer unparalleled flexibility and scalability in dynamic driving contexts. This allows autonomous vehicles to anticipate and respond to the actions of other drivers in a more intricate and elaborate manner. 
+
+**The interaction-aware module**, on the other hand, takes into account the interactions between the AV and other vehicles in the environment, utilizing Long Short-Term Memory Networks (LSTMs) encoder to process historical track information for the ego vehicle and surrounding vehicles, thus enabling the ego vehicle to have a better understanding of the potential interactions with other vehicles. 
+
+**The priority-aware module** evaluates the importance of different vehicles and allows the ego vehicle to prioritize its attention and response to certain vehicles over others, based on their relevance to the ego vehicle's trajectory. 
+
+**The position-aware module** encodes and learns the dynamic location of the ego vehicle, providing additional context for the prediction of the ego vehicle's trajectory. Furthermore, we introduce a Polar coordinate system to accommodate the relative distance among various vehicles and scenes, which provides a flexible way to adapt to heterogeneous input data.
+
 
 ## Install
 
