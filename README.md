@@ -143,6 +143,7 @@ This step helps you assess how well the model generalizes to unseen data and all
 Once the model has been trained, it is important to evaluate its performance on a separate validation or test set. This step helps assess how well the model generalizes to unseen data. You can choose to evaluate the model using either the validation set (val) or the test set (the overall tested set or the maneuver-based dataset) by setting the test_dataset_files and test_cases . 
 
 ```
+(Here is just a sample NGSIM dataset, you can modify it to suit your needs)
 test_dataset_files = ['TestSet', 'TestSet_keep', 'TestSet_merge', 'TestSet_left',  'TestSet_right']
 test_cases = ['overall', 'keep', 'merge', 'left', 'right']
 ```
