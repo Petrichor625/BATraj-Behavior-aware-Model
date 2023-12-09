@@ -1,7 +1,6 @@
 # BATraj: A Behavior-aware Trajectory Prediction Model for Autonomous Driving
 
-This repository contains the official implementation of  **BAT: Behavior-Aware Human-Like Trajectory Prediction for Autonomous Driving**, accepted by Association for the Advancement of Artificial
-Intelligence (AAAI) 2024.
+This repository contains the official implementation of  **BAT: Behavior-Aware Human-Like Trajectory Prediction for Autonomous Driving**, accepted by the Association for the Advancement of Artificial Intelligence (AAAI) 2024.
 
 
 ## Background
@@ -199,8 +198,12 @@ This work aims to introduce a novel **lightweight and map-free model** that elim
 1. We present a novel dynamic geometric graph approach that eliminates the need for manual labeling during training. This method addresses the challenges of labeling non-continuous behaviors and selecting appropriate time windows, while effectively capturing continuous driving behavior. Inspired by traffic psychology, decision theory, and driving dynamics, our model incorporates centrality metrics and behavior-aware criteria to provide enhanced flexibility and accuracy in representing driving behavior. To the best of our knowledge, this is the first attempt to incorporate **continuous representation** of behavioral knowledge} in trajectory prediction for AVs.
 2. We propose a novel pooling mechanism, aligned with human observational instincts, that extracts vehicle positions in **polar coordinates**. It simplifies the representation of direction and distance in Cartesian coordinates, accounts for road curvature, and allows modeling in complex scenarios such as roundabouts and intersections.
 3. We introduce a new Macao Connected Autonomous Driving (MoCAD) dataset, sourced from a L5 autonomous bus with over 300 hours across campus and busy urban routes. Characterized by its unique **right-hand-drive system**, MoCAD, set to be publicly available, is pivotal for research in right-hand-drive dynamics and enhancing trajectory prediction models.
-4. Our model significantly outperforms the SOTA baseline models when tested on the NGSIM, HighD, RounD, and MoCAD datasets, respectively. Remarkably, it maintains impressive performance even when trained on only **25.0% of the dataset**, demonstrating exceptional robustness and adaptability in various traffic scenarios, including **highways**, **roundabouts, and **busy urban locales**. 
+4. Our model significantly outperforms the SOTA baseline models when tested on the NGSIM, HighD, RounD, and MoCAD datasets, respectively. Remarkably, it maintains impressive performance even when trained on only **25.0% of the dataset**, demonstrating exceptional robustness and adaptability in various traffic scenarios, including **highways**, **roundabouts, and **busy urban locales**.
 
 
+
+## Citation
+**BAT: Behavior-Aware Human-Like Trajectory Prediction for Autonomous Driving**, proceeding on the Association for the Advancement of Artificial Intelligence (AAAI) 2024. (Camera-ready)
+ 
 
 
