@@ -1,4 +1,4 @@
-# BATraj: A Behavior-aware Trajectory Prediction Model for Autonomous Driving
+# BAT: Behavior-Aware Human-Like Trajectory Prediction for Autonomous Driving
 
 This repository contains the official implementation of  **BAT: Behavior-Aware Human-Like Trajectory Prediction for Autonomous Driving**, accepted by the Association for the Advancement of Artificial Intelligence (AAAI) 2024.
 
