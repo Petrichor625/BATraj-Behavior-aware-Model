@@ -1,17 +1,21 @@
 # BATraj: A Behavior-aware Trajectory Prediction Model for Autonomous Driving
 
-This repository contains the official implementation of  **BATraj: A Behavior-aware Trajectory Prediction Model for Autonomous Driving**
+This repository contains the official implementation of  **BAT: Behavior-Aware Human-Like Trajectory Prediction for Autonomous Driving**, accepted by Association for the Advancement of Artificial
+Intelligence (AAAI) 2024.
 
 ## Background
 
 The ability to accurately predict the trajectory of surrounding vehicles is a critical hurdle to overcome on the journey to fully autonomous vehicles. To address this challenge, we pioneer a novel behavior-aware trajectory prediction model (BAT) that incorporates insights and findings from traffic psychology, human behavior, and decision-making. Our model consists of behavior-aware, interaction-aware, priority-aware, and position-aware modules that perceive and understand the underlying interactions and account for uncertainty and variability in prediction, enabling higher-level learning and flexibility without rigid categorization of driving behavior. Importantly, this approach eliminates the need for manual labeling in the training process and addresses the challenges of non-continuous behavior labeling and the selection of appropriate time windows. We evaluate BAT's performance across the Next Generation Simulation (NGSIM), Highway Drone (HighD), Roundabout Drone (RounD), and Macao Connected Autonomous Driving (MoCAD) datasets, showcasing its superiority over prevailing state-of-the-art (SOTA) benchmarks in terms of prediction accuracy and efficiency. Remarkably, even when trained on reduced portions of the training data (25%), our model outperforms most of the baselines, demonstrating its robustness and efficiency in predicting vehicle trajectories, and the potential to reduce the amount of data required to train autonomous vehicles, especially in corner cases. In conclusion, the behavior-aware model represents a significant advancement in the development of autonomous vehicles capable of predicting trajectories with the same level of proficiency as human drivers.
-[![image](https://github.com/Petrichor625/BATraj-Behavior-aware-Model/blob/main/Figures/Framework3.png)]
+[![image](https://github.com/Petrichor625/BATraj-Behavior-aware-Model/blob/main/Figures/hudu2.png)
+
 
 ## Our model
+Architecture of behavior-aware trajectory prediction model
+[![image](https://github.com/Petrichor625/BATraj-Behavior-aware-Model/blob/main/Figures/Framework3.png)
 
 This model comprises of four innovative modules - a behavior-aware module, an interaction-aware module, a priority-aware module, and a position-aware module - each designed to enhance the sophistication and nuance of the model's understanding of driver behavior and vehicle interactions on the road.
 
-**The behavior-aware module**, in particular, is a key component of this model. Instead of resorting to a simplistic classification of behaviors into two or three distinct typologies, it utilizes a continuous representation of behavioral information, rooted in dynamic geometric graph theory, to offer unparalleled flexibility and scalability in dynamic driving contexts. This allows autonomous vehicles to anticipate and respond to the actions of other drivers in a more intricate and elaborate manner. 
+**The behavior-aware module**, in particular, is a key component of this model. Instead of resorting to a simplistic classification of behaviors into two or three distinct typologies, it utilizes a continuous representation of behavioral information, rooted in dynamic geometric graph theory, to offer unparalleled flexibility and scalability in dynamic driving contexts. This allows autonomous vehicles to anticipate and respond to the actions of other drivers more intricately and elaborately. 
 
 **The interaction-aware module**, on the other hand, takes into account the interactions between the AV and other vehicles in the environment, utilizing Long Short-Term Memory Networks (LSTMs) encoder to process historical track information for the ego vehicle and surrounding vehicles, thus enabling the ego vehicle to have a better understanding of the potential interactions with other vehicles. 
 
@@ -62,9 +66,8 @@ Before starting the training process,   you can choose one of the datasets to tr
 
 1. [2023.5.25] Like the baselines, the NGSIM dataset in our work is segmented in the same way as in the most widely used work [Deo and Trivedi, 2018], so that comparisons can be made.
 
-2. [2023.5.25] The maneuver-based test set is only a true subset of the overall test set. We select well-defined maneuvers from the overall test set and divide them into the maneuver-based test set, omitting some unknown maneuvers such as zigzag driving, tentative driving, etc. 
+2. [2023.5.25] The maneuver-based test set is only a true subset of the overall test set. We select well-defined maneuvers from the overall test set and divide them into the maneuver-based test set, omitting some unknown maneuvers such as zigzag driving, tentative driving, etc.
 
-   
 
 **b. Highway Drone (HighD) Dataset**
 
