@@ -11,7 +11,7 @@ The ability to accurately predict the trajectory of surrounding vehicles is a cr
 
 ## Our model
 Architecture of behavior-aware trajectory prediction model
-[![image](https://github.com/Petrichor625/BATraj-Behavior-aware-Model/blob/main/Figures/Framework3.png)
+![image](https://github.com/Petrichor625/BATraj-Behavior-aware-Model/blob/main/Figures/Framework3.png)
 
 This model comprises of four innovative modules - a behavior-aware module, an interaction-aware module, a priority-aware module, and a position-aware module - each designed to enhance the sophistication and nuance of the model's understanding of driver behavior and vehicle interactions on the road.
 
