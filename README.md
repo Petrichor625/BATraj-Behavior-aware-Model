@@ -2,6 +2,12 @@
 
 This repository contains the official implementation of  **BAT: Behavior-Aware Human-Like Trajectory Prediction for Autonomous Driving**, accepted by the Association for the Advancement of Artificial Intelligence (AAAI) 2024.
 
+## Highlights
+- Introducing a real-time dynamic geometric graph method for the continuous representation of driving behavior in trajectory prediction for autonomous driving.
+- Pioneering a pooling strategy that aligns with human observation instincts by capturing the location of traffic agents using polar coordinates.
+- Introducing the MoCAD dataset with its unique right-hand-drive system and mandatory left-hand driving, enriching trajectory prediction studies in complex urban and campus scenarios.
+- The proposed model demonstrates exceptional robustness and adaptability in various traffic scenarios, including highways, roundabouts, campuses, and busy urban locales.
+  
 
 ## Background
 
