@@ -210,6 +210,17 @@ This work aims to introduce a novel **lightweight and map-free model** that elim
 
 ## Citation
 **BAT: Behavior-Aware Human-Like Trajectory Prediction for Autonomous Driving**, proceeding on the Association for the Advancement of Artificial Intelligence (AAAI) 2024. (Camera-ready)
+
+```
+@misc{liao2023bat,
+      title={BAT: Behavior-Aware Human-Like Trajectory Prediction for Autonomous Driving}, 
+      author={Haicheng Liao and Zhenning Li and Huanming Shen and Wenxuan Zeng and Guofa Li and Shengbo Eben Li and Chengzhong Xu},
+      year={2023},
+      eprint={2312.06371},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
  
 
 
