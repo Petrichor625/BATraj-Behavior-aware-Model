@@ -38,6 +38,7 @@ This model comprises of four innovative modules - a behavior-aware module, an in
 - [x] [2023.8.05] Open source BAT code
 - [x] [2023.11.28] Update Readme
 - [x] [2023.12.09] Update project code
+- [x] [2024.3.14] Update visualization code (See more details in our new work HLTP)
 
 
 ## Install
