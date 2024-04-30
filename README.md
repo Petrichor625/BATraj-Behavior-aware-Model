@@ -39,7 +39,7 @@ This model comprises of four innovative modules - a behavior-aware module, an in
 - [x] [2023.11.28] Update Readme
 - [x] [2023.12.09] Update project code
 - [x] [2024.3.14] Update visualization code (See more details in our new work HLTP)
-- [ ] Upload the latest version of the code (in the meantime, **if you want to quickly reproduce better results, please refer to our latest work HLTP**)
+- [ ] Upload the latest version of the code (**if you want to quickly reproduce better results while waiting, please refer to our latest working HLTP**)
 
 
 
