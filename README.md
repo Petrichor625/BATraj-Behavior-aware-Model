@@ -9,9 +9,17 @@ This repository contains the official implementation of  **BAT: Behavior-Aware H
 - The proposed model demonstrates exceptional robustness and adaptability in various traffic scenarios, including highways, roundabouts, campuses, and busy urban locales.
   
 
-> ⚠️ **Important Notice**
+# ⚠️ **Important Notice: Code Version Update Pending** ⚠️
+**🚨 Apologies for the inconvenience!**  
+There is an issue with the current version of the code in this repository. Unfortunately, we’re unable to upload the latest corrected version right now.
 
-First of all, we apologize for any inconvenience. Please be aware that there is an issue with the version of the code currently available in this repository, and we’re currently unable to upload the latest corrected version. If you’re looking to replicate or enhance our results, we recommend exploring our other project, **[HLTP](https://github.com/Petrichor625/HLTP)**, which includes more effective methods and refined code that may better support your work.
+For those aiming to replicate or build upon our results, we recommend checking out our alternative project:  
+👉 **[HLTP Project on GitHub](https://github.com/Petrichor625/HLTP)** 👈
+
+This project includes **improved methods** and **refined code** that may better support your work. 
+
+Please don’t hesitate to reach out if you have any questions—thank you for your understanding and patience!
+
 
 
 ## To-do List
