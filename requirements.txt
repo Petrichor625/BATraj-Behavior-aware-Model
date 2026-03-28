@@ -1,0 +1,49 @@
+Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1648883617327/work
+certifi==2023.7.22
+cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1636046063618/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1688813409104/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+contourpy==1.1.1
+cycler==0.12.1
+descartes==1.1.0
+einops==0.8.1
+et_xmlfile==2.0.0
+fonttools==4.43.1
+future @ file:///home/conda/feedstock_root/build_artifacts/future_1673596611778/work
+googledrivedownloader @ file:///home/conda/feedstock_root/build_artifacts/googledrivedownloader_1619807768586/work
+h5py==3.11.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+importlib-resources==6.1.0
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1654302431367/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1691577114857/work
+kiwisolver==1.4.5
+MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1648737563195/work
+matplotlib==3.7.3
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1680692919326/work
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1651020413938/work
+openpyxl==3.1.5
+packaging==23.2
+pandas==1.4.2
+Pillow==10.1.0
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1690737849915/work
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+python-louvain @ file:///home/conda/feedstock_root/build_artifacts/python-louvain_1674586957342/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1680088766131/work
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1684774241324/work
+scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1652976690378/work
+scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy_1653073867187/work
+shapely==2.0.2
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1689261241048/work
+torch @ file:///home/conda/feedstock_root/build_artifacts/pytorch-recipe_1633436494283/work
+torch-cluster @ file:///usr/share/miniconda/envs/test/conda-bld/pytorch-cluster_1631029602774/work
+torch-geometric @ file:///usr/share/miniconda/envs/test/conda-bld/pytorch-geometric_1624734506786/work
+torch-scatter @ file:///usr/share/miniconda/envs/test/conda-bld/pytorch-scatter_1634900998173/work
+torch-sparse @ file:///usr/share/miniconda/envs/test/conda-bld/pytorch-sparse_1631173914209/work
+torch-spline-conv @ file:///usr/share/miniconda/envs/test/conda-bld/pytorch-spline-conv_1631008408479/work
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1691671248568/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1688315532570/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1689789803562/work
+zipp==3.17.0
